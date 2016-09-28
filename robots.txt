@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /tim-ve
+Disallow: /order/
+Disallow: /leader/
+Disallow: /manage/
+Disallow: /forum/
