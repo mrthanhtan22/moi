@@ -20,7 +20,7 @@
             	
                 <li><i class="fa fa-map-marker"></i> 169 Đinh Tiên Hoàng, phường Đa Kao, quận 1, TP.Hồ Chí Minh</li>
                 <li><i class="fa fa-phone"></i>Điện thoại:  (08) 3820.67.67 </li>
-                <br>
+        
            		<h4 style="color:#fff">Văn phòng 2</h4>
            
                 <!--<li>Công ty TNHH MTV Du Lịch Liên Kết Toàn Cầu</li>-->

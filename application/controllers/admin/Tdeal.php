@@ -137,7 +137,7 @@
     private function _del($id){
         $info = $this->tdeal_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message','khong ton tai danh muc');
+            $this->session->set_flashdata('message','khong ton tai gia');
            redirect(admin_url('tdeal'));         
         }
         
