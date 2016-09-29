@@ -27,35 +27,20 @@
  <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a  href="<?php echo site_url() ?>"><img   src="<?php echo public_url('site') ?>/images/logo.png" class="img-responsive" alt="Image"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">VÉ QUỐC TẾ</a></li>
-        <li><a href="#services">VÉ TRONG NƯỚC</a></li>
-        <li><a href="#portfolio">VÉ THEO HÃNG</a></li>
-        <li><a href="#pricing">TIN TỨC</a></li>
-        <li><a href="#contact">KHUYẾN MÃI</a></li>
-        <li><a href="#contact">LIÊN HỆ</a></li>
+        <li><a href="<?php echo site_url('vequocte') ?>">VÉ QUỐC TẾ</a></li>
+        <li><a href="<?php echo site_url('vetrongnuoc') ?>">VÉ TRONG NƯỚC</a></li>
+        <li><a href="<?php echo site_url('vetheohang') ?>">VÉ THEO HÃNG</a></li>
+        <li><a href="<?php echo site_url('tintuc') ?>">TIN TỨC</a></li>
+        <li><a href="<?php echo site_url('tintuc/khuyenmai') ?>">KHUYẾN MÃI</a></li>
+        <li><a href="<?php echo site_url('lienhe') ?>">LIÊN HỆ</a></li>
 
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="clear"></div>
-<div class="clear"></div>
-<div class="container_12">
-<div class="grid_12" style="margin-top:100px">
-	<h1>
-		<a href="index.html">
-			<img src="<?php echo public_url('site')?>/images/logo.png" alt="Your Happy Family">
-		</a>
-	</h1>
-</div>
-</div>
+<div class="clear" style="margin-top: 100px"></div>

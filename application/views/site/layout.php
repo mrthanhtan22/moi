@@ -10,7 +10,7 @@
 		<?php $this->load->view('site/header/menu'); ?>
 	</header>
 		
-		<?php $this->load->view('site/slider/slide'); ?>
+		<?php $this->load->view('site/slider/slide',$this->data); ?>
 	
 <!-- end header -->
 

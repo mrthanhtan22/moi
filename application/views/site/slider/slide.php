@@ -1,34 +1,15 @@
 <div class="slider_wrapper">
 			<div id="camera_wrap" class="">
-				<div data-src="<?php echo public_url('site') ?>/images/slide.jpg">
+			<?php foreach ($slide_list as $row): ?>
+				<div data-src="<?php echo base_url('upload/slide/'.$row->image_link)?>">
 					<div class="caption fadeIn">
-						<h2>LONDON</h2>
+						<h2 class="an_hinh"><?php echo $row->name ?></h2>
 						<div class="price">
-							FROM
-							<span>$1000</span>
+							<strong><?php echo $row->info ?></strong>
 						</div>
-						<a href="#">LEARN MORE</a>
+						<a href="<?php echo $row->link ?>">LEARN MORE</a>
 					</div>
 				</div>
-				<div data-src="<?php echo public_url('site') ?>/images/slide1.jpg">
-					<div class="caption fadeIn">
-						<h2>Maldives</h2>
-						<div class="price">
-							FROM
-							<span>$2000</span>
-						</div>
-						<a href="#">LEARN MORE</a>
-					</div>
-				</div>
-				<div data-src="<?php echo public_url('site') ?>/images/slide2.jpg">
-					<div class="caption fadeIn">
-						<h2>Venice</h2>
-						<div class="price">
-							FROM
-							<span>$1600</span>
-						</div>
-						<a href="#">LEARN MORE</a>
-					</div>
-				</div>
-			</div>
+			<?php endforeach ?>
+	</div>
 		</div>

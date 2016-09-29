@@ -31,7 +31,7 @@
                             </div>
                             
                             <div class="formRow">
-                            	<label class="formLeft">Hình ảnh:<span class="req">*</span></label>
+                            	<label class="formLeft">Hình ảnh (1600*774):<span class="req">*</span></label>
                             	<div class="formRight">
                             		<div class="left">
                                 		<input type="file" name="image" id="image" size="25">

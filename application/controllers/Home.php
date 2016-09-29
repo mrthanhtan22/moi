@@ -16,7 +16,10 @@
 
 			/* lay tin tuc*/
 			$this->load->model('news_model');
-			$news_list = $this->news_model->get_list();
+			$input = array();
+			$input['order'] = array('id','DESC');
+			$input['limit'] = array('3','0');
+			$news_list = $this->news_model->get_list($input);
 			$this->data['news_list'] = $news_list;
 
 			
@@ -25,6 +28,9 @@
 			$this->load->model('trangchu_model');
 			$trangchu = $this->trangchu_model->get_list();
 			$this->data['trangchu'] = $trangchu;
+
+			
+
 
 			$data = array();
 			$data['temp'] = 'site/home/index';

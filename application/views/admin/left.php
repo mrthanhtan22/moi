@@ -97,28 +97,38 @@
 				<strong>3</strong>
 			</a>
 			
-							<ul class="sub">
-											<li >
-							<a href="<?php echo admin_url('slide') ?>">
-								Slide							</a>
-						</li>
-											<li >
-							<a href="<?php echo admin_url('news') ?>">
-								Tin tức							</a>
+				<ul class="sub">
+										
+						<li >
+							<a href="<?php echo admin_url('news') ?>">Tin tức</a>
 						<!--</li>
 											<li >
 							<a href="admin/info.html">
 								Trang thông tin							</a>
 						</li>-->
-											<li >
-							<a href="<?php echo admin_url('tdeal') ?>">
-								Giá vé							</a>
+						<li >
+							<a href="<?php echo admin_url('tdeal') ?>">Giá vé</a>
 						</li>
-									</ul>
+				</ul>
 						
 		</li>
 
 
+		<li class="support">
+		
+			<a href="admin/support.html" class=" exp" >
+				<span>Chỉnh sửa Slider</span>
+				<strong>1</strong>
+			</a>
+			
+				<ul class="sub">
+				<li >
+				<a href="<?php echo admin_url('slide') ?>">Slide</a>
+				</li>
+							
+				</ul>
+						
+		</li>
 
 
 			<li class="support">
