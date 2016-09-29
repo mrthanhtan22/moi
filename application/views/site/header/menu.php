@@ -28,6 +28,8 @@
   <div class="container">
     <div class="navbar-header">
       <a  href="<?php echo site_url() ?>"><img   src="<?php echo public_url('site') ?>/images/logo.png" class="img-responsive" alt="Image"></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">

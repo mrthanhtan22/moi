@@ -30,6 +30,15 @@
 			$this->data['trangchu'] = $trangchu;
 
 			
+			/*lay tin khuyen mai*/
+			$this->load->model('news_model');
+			$input1 = array();
+        	$input1 ['where'] = array('catalog_news_id' => 2);
+        	$input1 ['order'] = array('id','DESC');
+			$input1 ['limit'] = array('3','0');
+        	$list_khuyenmai = $this->news_model->get_list($input1);
+        	$this->data['list_khuyenmai'] = $list_khuyenmai;
+			
 
 
 			$data = array();
